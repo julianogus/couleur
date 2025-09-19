@@ -1,4 +1,3 @@
-import river from './River.png';
 import './PopUp.css';
 
 export default function NavBar(){
