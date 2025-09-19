@@ -1,0 +1,18 @@
+.c-palette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: #433E3F;
+
+    & a {
+        margin-top: 0.65em;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.box {
+    padding: 3.75em;
+    box-shadow: 0 0 5px black;
+}

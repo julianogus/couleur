@@ -1,0 +1,26 @@
+.footer{
+    background-color: #FEE0E4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    & a {
+        text-decoration: none;
+        color: #433E3F;
+    }
+}
+
+nav {
+    display: flex;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    gap: 3.5rem;
+    & a {
+        border-bottom: 0.2rem solid #FC929F;
+        cursor: pointer;
+    }
+}
