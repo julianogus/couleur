@@ -1,5 +1,4 @@
 import './ColorBox.css';
-import { useState } from 'react';
 
 export default function ColorBox({id, color}){
 
@@ -15,12 +14,6 @@ export default function ColorBox({id, color}){
     }
 
     const hexValue = rgbToHex(rgb[0], rgb[1], rgb[2]);
-
-    // Implementar copiar pro clipboard
-    function clipboardHex(){
-        console.log(color.toString(16));
-
-    }
 
     return (
         <div className='c-palette'>
