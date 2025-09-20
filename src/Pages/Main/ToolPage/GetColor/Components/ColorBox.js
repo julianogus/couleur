@@ -19,7 +19,7 @@ export default function ColorBox({id, color}){
         <div className='c-palette'>
             <span className="box" id={id} style={{backgroundColor: `rgb(${color}`}}>
             </span>
-            <a>{hexValue}</a>
+            <p>{hexValue}</p>
         </div>
     )
 }
