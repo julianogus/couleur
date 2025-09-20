@@ -25,7 +25,7 @@ export default function PaletteBody({imageURL, palette, paletteRef}){
             {
                 getPaletteArray(palette, boxArr => {
                     boxArr.map((box) => {
-                        cloneElement(box)})
+                        return cloneElement(box)})
                     })
             }
         </div>

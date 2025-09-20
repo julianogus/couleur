@@ -17,8 +17,8 @@ export default function ToolPage(){
                     </p>
                     <h2>Credits</h2>
                         <ul>
-                            <li><a href="https://github.com/lokesh/color-thief" target="_blank">ColorThief</a> – used to extract color data from images. </li>
-                            <li><a href="https://fonts.google.com/icons" target="_blank">Google Material Icons</a> – used for project icons. </li>
+                            <li><a href="https://github.com/lokesh/color-thief" target="_blank" rel="noreferrer">ColorThief</a> – used to extract color data from images. </li>
+                            <li><a href="https://fonts.google.com/icons" target="_blank" rel="noreferrer">Google Material Icons</a> – used for project icons. </li>
                             <li>Font used: Inter Sans.</li>
                         </ul>
                 </div>
