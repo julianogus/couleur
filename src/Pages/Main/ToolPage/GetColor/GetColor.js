@@ -52,6 +52,7 @@ export default function GetColor(){
             <div className="input-div">
                 <input type="file" name="image-input" id="image-input" accept="image/*" onChange={event => { displayPalette(event.target.files[0]); event.target.value=null}} />
                 <label htmlFor="image-input"> 
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add_photo_alternate" />
                     <span className="material-symbols-outlined" value=""> add_photo_alternate </span> 
                     Upload an image
                 </label>
