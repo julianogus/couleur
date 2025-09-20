@@ -1,5 +1,5 @@
 import './PaletteBody.css';
-import { React } from 'react';
+import { cloneElement } from 'react';
 import ColorBox from './ColorBox';
 
 export default function PaletteBody({imageURL, palette, paletteRef}){
@@ -25,7 +25,7 @@ export default function PaletteBody({imageURL, palette, paletteRef}){
             {
                 getPaletteArray(palette, boxArr => {
                     boxArr.map((box) => {
-                        React.cloneElement(box)})
+                        cloneElement(box)})
                     })
             }
         </div>
